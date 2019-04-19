@@ -1,5 +1,5 @@
 {
-  "name": "hello-next",
+  "name": "namle-fb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,15 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "now-build": "next build",
+    "start": "next start -p $PORT"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "next": "^8.1.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-facebook": "^8.0.4",
+    "react-paginate": "^6.3.0",
+    "superagent": "^5.0.2"
   }
-  
 }
